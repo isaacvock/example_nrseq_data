@@ -122,7 +122,7 @@ fastp_adapters: ""
 # Normalize sequencing tracks?
 normalize: True
 
-flat_annotation: "data/annotations/chr21.gtf"
+flat_annotation: "data/annotations/chr21_flat.gtf"
 
 quantify_premRNA: False
 
