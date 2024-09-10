@@ -40,7 +40,7 @@ samples:
 
 
 # -s4U control sample IDs
-control_samples: []
+control_samples: ['WTctl', 'KOctl']
 
 # Paired end? 
   # Set to True or False, no double quotes
@@ -78,7 +78,7 @@ indices: data/indices/star_chr21
   # yes means that read 1 represents 5' to 3' sequence of original RNA
   # no means unstranded
   # Used by HTSeq (see https://htseq.readthedocs.io/en/master/htseqcount.html for details)
-strandedness: "reverse"
+strandedness: "forward"
 
 
 # Augmentative analysis strategies
